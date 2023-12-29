@@ -19,7 +19,7 @@ class Server {
 
     routing() {
         // Routage 
-        this.app.use('/login', userRouter);        
+        this.app.use('/users', userRouter);        
     }
 
     start() {
