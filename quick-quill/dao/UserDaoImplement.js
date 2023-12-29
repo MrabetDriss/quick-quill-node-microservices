@@ -7,7 +7,7 @@ class UserDaoImplement extends UserDao {
         super();
     }
 
-    selectByEmail(email, callBack) {
+    selectByEmail(user, callBack) {
         db.selectByKeyword(email, callBack);
     }
 

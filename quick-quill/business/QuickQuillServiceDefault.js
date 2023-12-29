@@ -7,8 +7,8 @@ class QuickQuillServiceDefault {
         this.userDao = userDao;
     }
 
-    getUserByEmail(email, callBack) {
-        this.userDao.selectByEmail(email, callBack);
+    getUserByEmail(user, callBack) {
+        this.userDao.selectByEmail(user, callBack);
     }
 }
 

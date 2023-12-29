@@ -8,7 +8,7 @@ class UserDao {
         }
     }
 
-    selectByEmail(email) {
+    selectByEmail(user) {
         console.log('should be implemented'); 
     }
 
